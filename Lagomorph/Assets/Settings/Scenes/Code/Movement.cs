@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
-    public Camera sceneCamera;
+    //public Camera sceneCamera;
 
     public float movespeed;
 
@@ -15,39 +15,46 @@ public class Movement : MonoBehaviour
     private Vector2 moveDirection;
     private Vector2 mousePosition;
 
-    void Update()
+    private void Update()
     {
         ProcessInputs();
     }
 
-    void FixedUpdate()
+    private void FixedUpdate()
     {
 
         Move();
     }
-    
-    void ProcessInputs()
+
+    private void ProcessInputs()
     {
         float moveX = Input.GetAxisRaw("Horizontal");
         float moveY = Input.GetAxisRaw("Vertical");
 
+        //Rotation
+        /*
         if(Input.GetMouseButtonDown(0))
         {
             weapon.Fire();
         }
-
+        */
 
         moveDirection = new Vector2(moveX, moveY).normalized;
-        mousePosition = sceneCamera.ScreenToWorldPoint(Input.mousePosition);
+
+        //Rotation
+        //mousePosition = sceneCamera.ScreenToWorldPoint(Input.mousePosition);
     }
 
-    void Move()
+    private void Move()
     {
         rb.velocity = new Vector2(moveDirection.x * movespeed, moveDirection.y * movespeed);
 
+        //Rotation
+        /*
         Vector2 aimDirection = mousePosition - rb.position;
         float aimAngle = Mathf.Atan2(aimDirection.y, aimDirection.x) * Mathf.Rad2Deg - 90f;
         rb.rotation = aimAngle;
+        */
     }
 
 

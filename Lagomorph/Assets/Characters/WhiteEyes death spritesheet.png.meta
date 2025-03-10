@@ -1,0 +1,1319 @@
+fileFormatVersion: 2
+guid: cac6fc70718bcf04784b3357f71beb55
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: WhiteEyes death spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 5405
+        width: 662
+        height: 719
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d151b9914efa754c8935131dce68f38
+      internalID: 1902257098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteEyes death spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 5414
+        width: 662
+        height: 710
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25847cf2fafbfb549aa823cc9872f4c2
+      internalID: -2122243007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteEyes death spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 1613
+        y: 5429
+        width: 653
+        height: 695
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fec287f9d0673e47adc21d13651e669
+      internalID: -5018683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteEyes death spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 2390
+        y: 5444
+        width: 644
+        height: 680
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bbaf0c5b5e75db49b2fbfed4023e718
+      internalID: 897881169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteEyes death spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 3173
+        y: 5462
+        width: 629
+        height: 662
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4beab56b0619a21409e50a5c02bc1369
+      internalID: 266148788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteEyes death spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 3950
+        y: 5486
+        width: 620
+        height: 638
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da830c3082b969240a0349ce9b2d2715
+      internalID: 1977413712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteEyes death spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 4724
+        y: 5510
+        width: 614
+        height: 614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4201b4ca22b28314191fb496ee81c08e
+      internalID: 1459290701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteEyes death spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 4757
+        width: 614
+        height: 599
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9e8aba88d0f51840ae29bd9918c957d
+      internalID: -1778572873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteEyes death spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 4766
+        width: 614
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b8a009d640cc094599bb093da6fd0a0
+      internalID: -324870248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteEyes death spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 1652
+        y: 4796
+        width: 614
+        height: 560
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ab52c955f7892e48b9b9dcef3524eb8
+      internalID: 1480260019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteEyes death spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 2420
+        y: 4805
+        width: 614
+        height: 551
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca12d96d4ab886c4ab162ffbea15b116
+      internalID: -340129740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteEyes death spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 3188
+        y: 4829
+        width: 614
+        height: 527
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da6f9f375e4c52e40a3ffa0c596a7922
+      internalID: -920410887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteEyes death spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 3956
+        y: 4844
+        width: 614
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2316fa7a69ff941418e72b456263ab4c
+      internalID: -915427409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteEyes death spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 4724
+        y: 4877
+        width: 614
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7536c6d9e4fdb8e4f91a7554c6489172
+      internalID: -1228099830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteEyes death spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 4133
+        width: 614
+        height: 455
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5edf2bf31552295478759da417ebc058
+      internalID: 1875609658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteEyes death spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 4148
+        width: 614
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 623b3122d084bab4399796cbe0cb6fa4
+      internalID: -1549750902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteEyes death spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 1652
+        y: 4172
+        width: 614
+        height: 416
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9943563a6f5b5d846bbf1dc719cc62b5
+      internalID: -1741631044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteEyes death spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 2420
+        y: 4196
+        width: 608
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c222b8255ab60b9458d717b93d9132db
+      internalID: -2039723757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteEyes death spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 3188
+        y: 4220
+        width: 575
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35b0439344d6d0f428b0e0842f74150c
+      internalID: 406253347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteEyes death spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 3956
+        y: 4244
+        width: 542
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 584a1962c11571646ba5b49873db41f0
+      internalID: -1871492108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteEyes death spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 4724
+        y: 4268
+        width: 512
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cd55d1314181f94287f1015d0aa493d
+      internalID: 1733988003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteEyes death spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 3518
+        width: 479
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 919dcebb103e8954d80650fc223db267
+      internalID: -298691193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteEyes death spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 3542
+        width: 455
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e5149318e1a1ed46855573f1546f4a7
+      internalID: 1742434989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteEyes death spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 1652
+        y: 3566
+        width: 335
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1308a743509a86043a582b66e5a34d3d
+      internalID: 595522593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteEyes death spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 1901
+        y: 3566
+        width: 191
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60dbf5b19eae753438b49da7132df644
+      internalID: -1433275095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteEyes death spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 2420
+        y: 3581
+        width: 335
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01aa5381db3dc3242bfdd9cbc59b6249
+      internalID: -627411037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteEyes death spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 2693
+        y: 3590
+        width: 119
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c3ab713c906bad4bb1d71d63e6df7c3
+      internalID: -715312809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteEyes death spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 3188
+        y: 3590
+        width: 335
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18979c1716268804b9264b9c37004a4b
+      internalID: -1323807160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteEyes death spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 3956
+        y: 3605
+        width: 335
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21b9861d5af491146bd7fa75bb6740c7
+      internalID: 1171801738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteEyes death spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 4724
+        y: 3614
+        width: 335
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 223824896fcc0ad4dab23eceb9eec084
+      internalID: -2146643802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteEyes death spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 2846
+        width: 335
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8729346cd3d3e44ea1783c9a6461fee
+      internalID: 608081583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteEyes death spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 2846
+        width: 335
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a17cc16fb5421d4aa5f9b6b9dfb9ad4
+      internalID: 1579455409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteEyes death spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 1652
+        y: 2846
+        width: 335
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22dfacb766d733545924993d2019e5a2
+      internalID: 461514983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteEyes death spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 2420
+        y: 2846
+        width: 287
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b7488a76802a714e87fb072814cfd9c
+      internalID: -1137019751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteEyes death spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 3188
+        y: 2846
+        width: 272
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 012f9edc56febfc47aecd43718e890c8
+      internalID: 1947200415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteEyes death spritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 3956
+        y: 2846
+        width: 248
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2acf5c48d7aee9244a1e824acd4ccb65
+      internalID: 269861615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteEyes death spritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 4742
+        y: 2765
+        width: 245
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39e3c03736734fb4584488d42032786b
+      internalID: 793225103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteEyes death spritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 1934
+        width: 245
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 890987c908ca6d1459aec7bef8751f8a
+      internalID: 222507494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteEyes death spritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 1853
+        width: 248
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a0080b3344a56248aae944bb7dbf3f2
+      internalID: -1254269877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteEyes death spritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 1676
+        y: 1781
+        width: 248
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 695e07ebb47a545438f5d6e9c022439f
+      internalID: 1160190630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteEyes death spritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 2444
+        y: 1718
+        width: 248
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1eaa91b5bd808c4f91c392598409a47
+      internalID: -1895270949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteEyes death spritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 3206
+        y: 1646
+        width: 245
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 698256e03fe3607498f8a93e0c1565eb
+      internalID: -1620752576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteEyes death spritesheet_42
+      rect:
+        serializedVersion: 2
+        x: 3974
+        y: 1589
+        width: 245
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72f76e33b56d12a4d8554ea9e0b0c105
+      internalID: -1817122873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteEyes death spritesheet_43
+      rect:
+        serializedVersion: 2
+        x: 4742
+        y: 1532
+        width: 245
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b65f2c29439854945b31c7b190baaac7
+      internalID: 181606699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteEyes death spritesheet_44
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 788
+        width: 245
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 534cc90728654be4598fea014a9317bc
+      internalID: 1528743358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteEyes death spritesheet_45
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 806
+        width: 245
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aace6e9ee36ba88498748027f393640d
+      internalID: -1216772962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteEyes death spritesheet_46
+      rect:
+        serializedVersion: 2
+        x: 1670
+        y: 821
+        width: 245
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d54420f56464b4f44866cd6046947c61
+      internalID: 205494767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteEyes death spritesheet_47
+      rect:
+        serializedVersion: 2
+        x: 2438
+        y: 836
+        width: 245
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3511b2badbf1a364e99b1b03fc9d2e54
+      internalID: 1080353443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteEyes death spritesheet_48
+      rect:
+        serializedVersion: 2
+        x: 3206
+        y: 854
+        width: 245
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 721de969f1308834c9a0a12304c4d66c
+      internalID: -1528561240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteEyes death spritesheet_49
+      rect:
+        serializedVersion: 2
+        x: 3980
+        y: 878
+        width: 239
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 566c85070fc69714db9262357e72a7fd
+      internalID: 1883262023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteEyes death spritesheet_50
+      rect:
+        serializedVersion: 2
+        x: 4766
+        y: 902
+        width: 212
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b614a6c6e7d2a645b876c17f6bd5926
+      internalID: -1882424407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteEyes death spritesheet_51
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 158
+        width: 182
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27fdddc0a5dffcf4ea32d0f4985f76ea
+      internalID: -912309649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteEyes death spritesheet_52
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 182
+        width: 95
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89e5416c8e229f9449dad22d7de9593b
+      internalID: 183405667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      WhiteEyes death spritesheet_0: 1902257098
+      WhiteEyes death spritesheet_1: -2122243007
+      WhiteEyes death spritesheet_10: -340129740
+      WhiteEyes death spritesheet_11: -920410887
+      WhiteEyes death spritesheet_12: -915427409
+      WhiteEyes death spritesheet_13: -1228099830
+      WhiteEyes death spritesheet_14: 1875609658
+      WhiteEyes death spritesheet_15: -1549750902
+      WhiteEyes death spritesheet_16: -1741631044
+      WhiteEyes death spritesheet_17: -2039723757
+      WhiteEyes death spritesheet_18: 406253347
+      WhiteEyes death spritesheet_19: -1871492108
+      WhiteEyes death spritesheet_2: -5018683
+      WhiteEyes death spritesheet_20: 1733988003
+      WhiteEyes death spritesheet_21: -298691193
+      WhiteEyes death spritesheet_22: 1742434989
+      WhiteEyes death spritesheet_23: 595522593
+      WhiteEyes death spritesheet_24: -1433275095
+      WhiteEyes death spritesheet_25: -627411037
+      WhiteEyes death spritesheet_26: -715312809
+      WhiteEyes death spritesheet_27: -1323807160
+      WhiteEyes death spritesheet_28: 1171801738
+      WhiteEyes death spritesheet_29: -2146643802
+      WhiteEyes death spritesheet_3: 897881169
+      WhiteEyes death spritesheet_30: 608081583
+      WhiteEyes death spritesheet_31: 1579455409
+      WhiteEyes death spritesheet_32: 461514983
+      WhiteEyes death spritesheet_33: -1137019751
+      WhiteEyes death spritesheet_34: 1947200415
+      WhiteEyes death spritesheet_35: 269861615
+      WhiteEyes death spritesheet_36: 793225103
+      WhiteEyes death spritesheet_37: 222507494
+      WhiteEyes death spritesheet_38: -1254269877
+      WhiteEyes death spritesheet_39: 1160190630
+      WhiteEyes death spritesheet_4: 266148788
+      WhiteEyes death spritesheet_40: -1895270949
+      WhiteEyes death spritesheet_41: -1620752576
+      WhiteEyes death spritesheet_42: -1817122873
+      WhiteEyes death spritesheet_43: 181606699
+      WhiteEyes death spritesheet_44: 1528743358
+      WhiteEyes death spritesheet_45: -1216772962
+      WhiteEyes death spritesheet_46: 205494767
+      WhiteEyes death spritesheet_47: 1080353443
+      WhiteEyes death spritesheet_48: -1528561240
+      WhiteEyes death spritesheet_49: 1883262023
+      WhiteEyes death spritesheet_5: 1977413712
+      WhiteEyes death spritesheet_50: -1882424407
+      WhiteEyes death spritesheet_51: -912309649
+      WhiteEyes death spritesheet_52: 183405667
+      WhiteEyes death spritesheet_6: 1459290701
+      WhiteEyes death spritesheet_7: -1778572873
+      WhiteEyes death spritesheet_8: -324870248
+      WhiteEyes death spritesheet_9: 1480260019
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
