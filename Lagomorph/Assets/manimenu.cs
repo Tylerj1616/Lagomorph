@@ -5,8 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class manimenu : MonoBehaviour
 {
-  public void PlayGame()
-  {
-	  SceneManager.LoadSceneAsync("Lagomorph LVL 1");
-  }
+	public void switchScenes(string sceneName)
+	{
+		SceneManager.LoadScene(sceneName);
+	}
 }
