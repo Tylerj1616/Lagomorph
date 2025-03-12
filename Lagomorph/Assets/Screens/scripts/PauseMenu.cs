@@ -12,6 +12,7 @@ public class PauseMenu : MonoBehaviour
     void Start()
     {
         Time.timeScale = 1f;
+        PauseMenuCanvas.SetActive(false);
     }
 
     // Update is called once per frame
@@ -19,7 +20,7 @@ public class PauseMenu : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.Esacpe))
         {
-            if(Pause)
+            if(Paused)
             {
                 Play();
             }
@@ -32,17 +33,16 @@ public class PauseMenu : MonoBehaviour
     void Stop()
     {
         PauseMenuCanvas.SetActive(true);
-            Time.timeScale = 0f;
+        Time.timeScale = 0f;
         Paused = true;
     }
     public void Play()
     {
         PauseMenuCanvas.SetActive(false);
-            Time.timeScale = 1f;
+        Time.timeScale = 1f;
         Paused = false;
     }
-
-    public void MainMenuButton()
+     public void MainMenuButton()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
     }
