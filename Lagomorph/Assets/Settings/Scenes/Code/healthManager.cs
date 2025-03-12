@@ -7,22 +7,18 @@ public class healthManager : MonoBehaviour
 {
 
     public Image healthBar;
-    public float healthAmount = 100f;
+    public float healthAmount;
+    public int maxHealth;
     
     // Start is called before the first frame update
     void Start()
     {
-        
+        healthAmount = maxHealth;
     }
 
     // Update is called once per frame
     void Update()
     {
-	if (healthAmount <= 0)
-	{
-	    Application.LoadLevel(Application.loadedLevel);
-	}
-
         if (Input.GetKeyDown(KeyCode.Return))
 	{
 	    takeDamage(20);
@@ -41,7 +37,7 @@ public class healthManager : MonoBehaviour
 
 	if(healthAmount <= 0)
 	{
-	    Destroy(GameObject.FindGameObjectWithTag("Player"));
+	    Destroy(gameObject);
 	}
     }
 
