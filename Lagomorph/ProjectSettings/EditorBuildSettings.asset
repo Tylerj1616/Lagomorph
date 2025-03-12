@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Lagomorph 3-11-2025 8AM.unity
+    path: Assets/Scenes/MainMenu.unity
+    guid: e167ee11f98af254faf71af4ea1f2a3d
+  - enabled: 1
+    path: Assets/Scenes/Lagomorph LVL1.unity
     guid: 7d32e42a86fb48f499f5d7c022868919
   m_configObjects: {}
