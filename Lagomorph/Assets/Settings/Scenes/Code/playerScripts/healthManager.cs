@@ -48,4 +48,12 @@ public class healthManager : MonoBehaviour
 
 	healthBar.fillAmount = healthAmount / 100f;
     }
+
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+	if(other.gameObject.tag == "HealthPickup")
+	{
+	    heal(20);
+	}
+    }
 }

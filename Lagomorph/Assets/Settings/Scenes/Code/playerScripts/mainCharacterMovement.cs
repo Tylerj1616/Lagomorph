@@ -11,10 +11,17 @@ public class mainCharacterMovement : MonoBehaviour
     private Vector2 moveInput;
     [SerializeField] private Animator _animator;
 
+    public static mainCharacterMovement instance;
+    
+    private void Awake()
+    {
+	instance = this;
+    }
+
     // Start is called before the first frame update
     void Start()
     {
-
+	rb2d = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
@@ -45,4 +52,19 @@ public class mainCharacterMovement : MonoBehaviour
 	    _animator.SetBool("isRunning", false);
 	}
     }
+
+    public IEnumerator Knockback(float kBDuration, float kBPower, Transform obj)
+    {
+	float timer = 0;
+
+	while (kBDuration > timer)
+	{
+	    timer += Time.deltaTime;
+	    Vector2 direction = (obj.transform.position -this.transform.position).normalized;
+	    rb2d.AddForce(-direction * kBPower);
+	}
+	
+	yield return 0;
+    }
+
 }
