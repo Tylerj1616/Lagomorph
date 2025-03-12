@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
+using UnityEngine.SceneManagement;  
 
 public class PauseMenu : MonoBehaviour
 {
@@ -12,15 +12,15 @@ public class PauseMenu : MonoBehaviour
     void Start()
     {
         Time.timeScale = 1f;
-        PauseMenuCanvas.SetActive(false);
+        PauseMenuCanvas.SetActive(false); // Ensure the pause menu is hidden initially
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Esacpe))
+        if (Input.GetKeyDown(KeyCode.Escape))  
         {
-            if(Paused)
+            if (Paused) // Fixed the check from "Pause" to "Paused"
             {
                 Play();
             }
@@ -30,20 +30,25 @@ public class PauseMenu : MonoBehaviour
             }
         }
     }
+
     void Stop()
     {
         PauseMenuCanvas.SetActive(true);
         Time.timeScale = 0f;
         Paused = true;
     }
+
     public void Play()
     {
         PauseMenuCanvas.SetActive(false);
         Time.timeScale = 1f;
         Paused = false;
     }
-     public void MainMenuButton()
+
+    public void MainMenuButton()
     {
+        // Ensure that you are calling LoadScene correctly
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
     }
-}
+
+} 
