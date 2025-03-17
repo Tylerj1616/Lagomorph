@@ -294,7 +294,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 971b4de382f1a1946992c4ebfa96f66b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 8.5
+  speed: 6.5
   targetDistance: 13
 --- !u!50 &177744817
 Rigidbody2D:
@@ -46579,7 +46579,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 971b4de382f1a1946992c4ebfa96f66b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 8.5
+  speed: 6.5
   targetDistance: 13
 --- !u!50 &309095401
 Rigidbody2D:
@@ -46819,7 +46819,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 971b4de382f1a1946992c4ebfa96f66b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 8.5
+  speed: 6.5
   targetDistance: 13
 --- !u!50 &445800315
 Rigidbody2D:
@@ -48106,7 +48106,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 971b4de382f1a1946992c4ebfa96f66b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 8.5
+  speed: 6.5
   targetDistance: 13
 --- !u!50 &862253132
 Rigidbody2D:
@@ -48802,7 +48802,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 971b4de382f1a1946992c4ebfa96f66b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 8.5
+  speed: 6.5
   targetDistance: 13
 --- !u!50 &1077057998
 Rigidbody2D:
@@ -49136,7 +49136,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 971b4de382f1a1946992c4ebfa96f66b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 8.5
+  speed: 6.5
   targetDistance: 13
 --- !u!50 &1118217920
 Rigidbody2D:
@@ -49606,7 +49606,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 971b4de382f1a1946992c4ebfa96f66b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 8.5
+  speed: 6.5
   targetDistance: 13
 --- !u!50 &1499649565
 Rigidbody2D:
@@ -50025,7 +50025,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 971b4de382f1a1946992c4ebfa96f66b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 8.5
+  speed: 6.5
   targetDistance: 13
 --- !u!50 &1956172727
 Rigidbody2D:
@@ -50543,7 +50543,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 971b4de382f1a1946992c4ebfa96f66b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 8.5
+  speed: 6.5
   targetDistance: 13
 --- !u!50 &2096714662
 Rigidbody2D:
@@ -50783,7 +50783,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 971b4de382f1a1946992c4ebfa96f66b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 8.5
+  speed: 6.5
   targetDistance: 13
 --- !u!50 &2123563053
 Rigidbody2D:
