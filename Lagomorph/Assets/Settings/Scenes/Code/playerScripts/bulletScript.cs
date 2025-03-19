@@ -35,6 +35,6 @@ public class bulletScript : MonoBehaviour
 	    enemyComponent.enemyTakeDamage(1);
 	}
 
-	Destroy(gameObject);
+        Destroy(gameObject);
     }
 }
