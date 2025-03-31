@@ -9,6 +9,7 @@ public class bulletScript : MonoBehaviour
     private Rigidbody2D rb2d;
     public float force;
 
+    [SerializeField] private LayerMask layerMask;
     // Start is called before the first frame update
     void Start()
     {

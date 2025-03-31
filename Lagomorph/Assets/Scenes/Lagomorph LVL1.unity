@@ -294,7 +294,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 971b4de382f1a1946992c4ebfa96f66b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 4.5
+  speed: 6.5
   targetDistance: 13
 --- !u!50 &177744817
 Rigidbody2D:
@@ -46579,7 +46579,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 971b4de382f1a1946992c4ebfa96f66b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 4.5
+  speed: 6.5
   targetDistance: 13
 --- !u!50 &309095401
 Rigidbody2D:
@@ -46824,7 +46824,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 971b4de382f1a1946992c4ebfa96f66b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 4.5
+  speed: 6.5
   targetDistance: 13
 --- !u!50 &445800315
 Rigidbody2D:
@@ -48116,7 +48116,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 971b4de382f1a1946992c4ebfa96f66b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 4.5
+  speed: 6.5
   targetDistance: 13
 --- !u!50 &862253132
 Rigidbody2D:
@@ -48356,7 +48356,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 971b4de382f1a1946992c4ebfa96f66b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 4.5
+  speed: 6.5
   targetDistance: 13
 --- !u!50 &943677855
 Rigidbody2D:
@@ -49146,7 +49146,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 971b4de382f1a1946992c4ebfa96f66b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 4.5
+  speed: 6.5
   targetDistance: 13
 --- !u!50 &1118217920
 Rigidbody2D:
@@ -49616,7 +49616,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 971b4de382f1a1946992c4ebfa96f66b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 4.5
+  speed: 6.5
   targetDistance: 13
 --- !u!50 &1499649565
 Rigidbody2D:
@@ -50090,6 +50090,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5081945188503392858, guid: f863c33d5920ce44bad65e7f67674e3b, type: 3}
+      propertyPath: speed
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 5143030050272831022, guid: f863c33d5920ce44bad65e7f67674e3b, type: 3}
       propertyPath: m_Name
       value: enemy (11)
@@ -50229,7 +50233,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 971b4de382f1a1946992c4ebfa96f66b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 4.5
+  speed: 6.5
   targetDistance: 13
 --- !u!50 &1956172727
 Rigidbody2D:
@@ -50747,7 +50751,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 971b4de382f1a1946992c4ebfa96f66b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 4.5
+  speed: 6.5
   targetDistance: 13
 --- !u!50 &2096714662
 Rigidbody2D:
@@ -50987,7 +50991,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 971b4de382f1a1946992c4ebfa96f66b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 4.5
+  speed: 6.5
   targetDistance: 13
 --- !u!50 &2123563053
 Rigidbody2D:
