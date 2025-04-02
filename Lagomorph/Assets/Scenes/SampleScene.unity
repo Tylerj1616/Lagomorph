@@ -441,7 +441,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameManager: {fileID: 0}
   gmScript: {fileID: 0}
-  CurrentHP: 0
+  CurrentHP: 6
 --- !u!70 &723194486
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -918,8 +918,13 @@ Transform:
   m_GameObject: {fileID: 1964244749}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+<<<<<<< Updated upstream
   m_LocalPosition: {x: -16.8151, y: -2.0877, z: 0}
   m_LocalScale: {x: 6.1101, y: 3.4983, z: 1}
+=======
+  m_LocalPosition: {x: 5.45, y: -2.5023, z: 0}
+  m_LocalScale: {x: 2.1526432, y: 2.0853884, z: 1}
+>>>>>>> Stashed changes
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
