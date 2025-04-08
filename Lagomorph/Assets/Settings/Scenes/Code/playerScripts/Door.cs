@@ -1,14 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Door : MonoBehaviour
 {
-    [SerializeField] private Transform destination;
-
-    public Transform GetDestination()
+    public string sceneName;
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        return destination;
-
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            Debug.Log("ChangeScene");
+            SceneManager.LoadScene(sceneName);
+        }
     }
+
 }
