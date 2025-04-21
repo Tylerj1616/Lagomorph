@@ -8,6 +8,7 @@ TagManager:
   - GameManager
   - Enemy
   - HealthPickup
+  - Teleport
   layers:
   - Default
   - TransparentFX
