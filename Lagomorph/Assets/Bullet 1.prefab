@@ -158,7 +158,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 4326010218958349684}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 95a9e8fcdb4838b4b9be88f0bcb0bbae, type: 3}
+  m_Script: {fileID: 11500000, guid: 47c4e701e24035641b4b9ae74ee77faa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletspeed: 10
+  force: 5
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 0
