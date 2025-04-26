@@ -780,7 +780,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1463191097}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 998835884}
+        m_TargetAssemblyTypeName: manimenu, Assembly-CSharp
+        m_MethodName: ClickToCredit
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1463191097
 MonoBehaviour:
   m_ObjectHideFlags: 0

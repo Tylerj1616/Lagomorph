@@ -12,6 +12,11 @@ public class manimenu : MonoBehaviour
 		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 	}
 
+	public void ClickToCredit()
+	{
+		SceneManager.LoadScene(2);
+	}
+
 	public void ClickToQuit()
 	{
 		Debug.Log("Quit Game!");
