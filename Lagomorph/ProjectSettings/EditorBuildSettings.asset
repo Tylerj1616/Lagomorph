@@ -12,6 +12,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Lagomorph LVL1.unity
     guid: 7d32e42a86fb48f499f5d7c022868919
   - enabled: 1
-    path: Assets/Scenes/New Scene.unity
+    path: Assets/Scenes/Credits.unity
     guid: 5dba6bdd23655c3459413409ba1619b8
   m_configObjects: {}
