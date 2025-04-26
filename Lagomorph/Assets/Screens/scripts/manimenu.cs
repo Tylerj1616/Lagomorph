@@ -5,8 +5,22 @@ using UnityEngine.SceneManagement;
 
 public class manimenu : MonoBehaviour
 {
-	public void switchScenes(string sceneName)
+	public void ClickToStart()
 	{
-		SceneManager.LoadScene(sceneName);
+		Debug.Log("Start Game!");
+		//SceneManager.LoadScene(1);
+		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+	}
+
+	public void ClickToQuit()
+	{
+		Debug.Log("Quit Game!");
+		Application.Quit();
+
+	}
+
+	public void ClickToHome()
+	{
+		SceneManager.LoadScene(0);
 	}
 }
