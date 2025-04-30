@@ -10,6 +10,7 @@ TagManager:
   - HealthPickup
   - Teleport
   - Walls
+  - FinalTeleport
   layers:
   - Default
   - TransparentFX
