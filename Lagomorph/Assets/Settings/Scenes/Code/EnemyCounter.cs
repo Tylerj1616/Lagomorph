@@ -11,7 +11,7 @@ public class EnemyCounter : MonoBehaviour
     
     void Start()
     {
-        
+
     }
 
     
@@ -20,5 +20,10 @@ public class EnemyCounter : MonoBehaviour
         enemies = GameObject.FindGameObjectsWithTag("Enemy");
 
         enemyCountText.text = "Enemies : " + enemies.Length.ToString();
+
+	if(GameObject.FindGameObjectsWithTag("Enemy").Length == 0)
+	{
+	    enemyCountText.text = "Find the door in the spider level.";
+	}
     }
 }
