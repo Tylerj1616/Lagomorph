@@ -8,6 +8,10 @@ public class rangedController : MonoBehaviour
     public Transform player;
     public Transform shotPoint;
     public Transform gun;
+
+    [SerializeField] private Animator _animator;
+    public SpriteRenderer spriteRenderer;
+    public Transform target;
  
     public GameObject enemyProjectile;
  
@@ -47,14 +51,23 @@ public class rangedController : MonoBehaviour
                 timeBtwnShots -= Time.deltaTime;
             }
         }
+
+	Vector2 direction = (target.position - transform.position).normalized;
+	spriteRenderer.flipX = direction.x < 0;
+
     }
  
     void FixedUpdate()
     {
         if (inRange)
         {
+	    _animator.SetBool("isRunning", true);
             transform.position = Vector2.MoveTowards(transform.position, player.position, moveSpeed * Time.deltaTime);
         }
+	else
+	{
+	    _animator.SetBool("isRunning", false);
+	}
     }
  
     void OnDrawGizmos()
