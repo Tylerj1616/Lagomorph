@@ -55,5 +55,9 @@ public class healthManager : MonoBehaviour
 	{
 	    heal(20);
 	}
+	else if(other.gameObject.tag == "evilBullet")
+	{
+	    takeDamage(30);
+	}
     }
 }

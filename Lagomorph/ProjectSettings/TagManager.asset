@@ -11,6 +11,9 @@ TagManager:
   - Teleport
   - Walls
   - FinalTeleport
+  - goHere
+  - whiteEyes
+  - evilBullet
   layers:
   - Default
   - TransparentFX
