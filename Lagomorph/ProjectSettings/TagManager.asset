@@ -14,6 +14,7 @@ TagManager:
   - goHere
   - whiteEyes
   - evilBullet
+  - evilRabbit
   layers:
   - Default
   - TransparentFX

@@ -25,5 +25,10 @@ public class EnemyCounter : MonoBehaviour
 	{
 	    enemyCountText.text = "Find the door in the spider level.";
 	}
+
+	if(GameObject.FindGameObjectsWithTag("evilRabbit").Length == 0)
+	{
+	    enemyCountText.text = "WIN";
+	}
     }
 }
