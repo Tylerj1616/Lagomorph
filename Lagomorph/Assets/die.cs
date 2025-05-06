@@ -5,20 +5,30 @@ using UnityEngine;
 public class die : MonoBehaviour
 {
     public bunnyTeleport teleporter;
-    private Transform target;
-    public float targetDistance;
+    public Transform player;
+    private bool inRange;
+    public float followPlayerRange;
     [SerializeField] private Animator _animator;
 
     // Start is called before the first frame update
     void Start()
     {
-	target = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(Vector2.Distance(transform.position, target.position) < targetDistance)
+        if (Vector2.Distance(transform.position, player.position) <= followPlayerRange)
+        {
+            inRange = true;
+        }
+        else
+        {
+            inRange = false;
+        }
+
+        if (inRange)
 	{
 	    _animator.SetBool("ISDEAD", true);
 	    teleporter.teleport();

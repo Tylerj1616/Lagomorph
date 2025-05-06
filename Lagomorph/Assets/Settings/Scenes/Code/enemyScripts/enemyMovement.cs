@@ -4,28 +4,39 @@ using UnityEngine;
 
 public class enemyMovement : MonoBehaviour
 {
-    private Transform target;
-    public float speed;
-    public float targetDistance;
+    public float moveSpeed;
+    public Transform player;
+    private bool inRange;
+    public float followPlayerRange;
 
     // Start is called before the first frame update
     void Start()
     {
-        target = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
+
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (Vector2.Distance(transform.position, player.position) <= followPlayerRange)
+        {
+            inRange = true;
+        }
+        else
+        {
+            inRange = false;
+        }
+    }
 
-	if(Vector2.Distance(transform.position, target.position) > targetDistance)
-	{
-
-	}
-
+    void FixedUpdate()
+    {
+        if (inRange)
+        {
+            transform.position = Vector2.MoveTowards(transform.position, player.position, moveSpeed * Time.deltaTime);
+        }
 	else
 	{
-	    transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
+
 	}
     }
 }
